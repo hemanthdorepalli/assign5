@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.class1{
+    width: 100vw;
+    height: 35vh;
+    background-image: url(./IMG/music.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.class2{
+    width: 70vw;
+    height: 23vh;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.class3{
+    width: 70vw;
+    height: 18vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkturquoise;
+    border-radius: 30px;
+}
+i{
+    font-size: 40px;
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+}
+.class4{
+    width: 60vw;
+    height: 9vh;
+    font-size: 40px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    padding-top: 0 auto;
+
+
+}
+.class5{
+    width: 80vw;
+    height: 9vh;
+    text-align: center;
+    font-size: 40px;
+}
+ins {
+    text-decoration: none;
+}
+/* mediaQuaries */
+@media screen and (max-width:768px) {
+
+    body{
+        width: 100vw;
+        height: 100vh;
+       display: block;
+       margin: auto;
+    }
+    .class1{
+        width: 100vw;
+        height: 35vh;
+        background-image: url(./img/music.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .class2{
+        width: 70vw;
+        height: 23vh;
+        margin: auto;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .class3{
+        width: 70vw;
+        height: 18vh;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    i{
+        font-size: 40px;
+    }
+    a{
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .class4{
+        width: 60vw;
+        height: 9vh;
+        margin: auto;
+        font-size: 40px;
+        text-align: center;
+      
+    
+    }
+    .class5{
+        width: 80vw;
+        height: 9vh;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+        font-size: 40px;
+    }
+    ins {
+        text-decoration: none;
+    }
+    
+}
