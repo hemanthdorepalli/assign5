@@ -78,10 +78,6 @@ ins {
     .class1{
         width: 100vw;
         height: 35vh;
-        background-image: url(./img/music.gif);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
     }
     .class2{
         width: 70vw;
